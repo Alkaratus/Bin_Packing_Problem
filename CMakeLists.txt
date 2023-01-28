@@ -10,3 +10,7 @@ add_subdirectory ("Main")
 add_subdirectory("Element") 
 add_subdirectory("Container")
 add_subdirectory("Insertion")
+
+enable_testing()
+
+add_subdirectory("Tests")
